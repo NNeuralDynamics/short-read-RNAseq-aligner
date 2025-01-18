@@ -1,0 +1,23 @@
+{
+    "STAR": {
+        "exe": "STAR",
+        "runThreadN": 96,
+        "twopassMode": "Basic",
+        "alignEndsType": "Local",
+        "alignSJoverhangMin": 5,
+        "alignSJDBoverhangMin": 1,
+        "outFilterMismatchNmax": 4,
+        "alignIntronMin": 20,
+        "alignIntronMax": 1000000,
+        "outFilterType": "BySJout",
+        "outSAMtype": ["BAM", "SortedByCoordinate"],
+        "outFileNamePrefix": "",
+        "outSAMattributes": "All",
+        "outSAMstrandField": "intronMotif",
+        "readFilesCommand": "zcat"
+    },
+    "run_parameters": {
+        "delete_fastq_files": true,
+        "delete_bam_files": false
+    }
+}
