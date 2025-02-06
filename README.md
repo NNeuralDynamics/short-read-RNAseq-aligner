@@ -3,4 +3,4 @@ a wrapper for (re)aligning short read RNAseq raw reads
 
 [Excel sheet descibing Star Parameters](https://docs.google.com/spreadsheets/d/1kJ4uOBQyT0vpa1sEgAEu7FgzNRzRW47axztfOvwe7_0/edit?usp=sharing)
 
-On this branch I have deletd folders and files to make this minimilize this wrapper. More documentation and SBATCH scripts to be added.
+On this branch I have deletd folders and files to make this a minimal wrapper. More documentation and SBATCH scripts to be added.
