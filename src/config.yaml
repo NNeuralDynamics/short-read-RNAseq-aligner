@@ -1,0 +1,26 @@
+mode: "alignReads"
+
+# STAR Index
+genome_dir: "/path/to/genomeDir"
+genomeFastaFiles: "/path/to/genome.fasta"
+sjdbGTFfile: "/path/to/annotation.gtf"
+
+# Batch Processing
+input_folder: "/path/to/reads"
+file_suffix: "_R1.fastq.gz"
+paired_end: true
+
+# Output Settings
+out_dir: "/path/to/output"
+threads: 8
+log_file: "logs/star_run.log"
+
+# Additional STAR Parameters (will be auto-added)
+readFilesCommand: "zcat"
+outSAMtype: "BAM SortedByCoordinate"
+quantMode: "GeneCounts"
+limitBAMsortRAM: "50000000000"
+chimSegmentMin: 12
+alignSJoverhangMin: 8
+alignIntronMin: 20
+alignIntronMax: 1000000
